@@ -55,8 +55,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # El token del pipeline es de solo lectura; los comentarios en el PR los hará n8n
           GITLEAKS_ENABLE_COMMENTS: false
-          
-    e2e:
+
+  e2e:
     name: Pruebas end-to-end
     runs-on: ubuntu-latest
 
